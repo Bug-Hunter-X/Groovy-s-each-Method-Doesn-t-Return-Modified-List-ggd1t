@@ -1,0 +1,1 @@
+This repository demonstrates a common Groovy pitfall:  misunderstanding the behavior of the `each` method.  The `each` method iterates over a collection and applies a closure to each element, but it does *not* return a modified collection.  This example shows how to correctly modify a list using `each` and alternative methods like `collect`.  Solutions are provided.
